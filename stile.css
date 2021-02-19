@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    height: 100vh;
+}
+.header{
+    padding-top: 44px;
+    background: url(/img/simon-migaj-Yui5vfKHuzs-unsplash.png);
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    margin-right: 100px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+}
+
+.menu a:last-child{
+    margin-right: 0px;
+}
+
+.header_text {
+    text-align: center;
+    margin-top: 350px;
+}
+
+.header_text h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+.header p{
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 4.2px;
+}
+.header button{
+
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 20px 80px;
+    margin-top: 22px;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in 0.25s all;
+}
+.header button:hover{
+    background-color: #ffffff;
+    color:#000000;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-text span{
+    color: #c4c4c4;
+    font-size: 22px;
+    letter-spacing: 3.08px;
+}
+.about-text h2{
+    margin-top: 32px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+.about-text p{
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    letter-spacing: 3.08px;
+}
+.about button{
+
+    cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 20px 80px;
+    margin-top: 22px;
+    border: 2px solid #000000;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in 0.25s all;
+}
+.about button:hover{
+    background-color: #000000;
+    color:#ffffff;
+}
+.photos{
+    text-align: center;
+    margin-top: 100px;
+}
+.photos-text h2{
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-bottom: 36px;
+}
+.photos-text p{
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.photo-wrap{
+    margin-top: 90px;
+}
+.photo-wrap img{
+    margin: 10px;
+}
+.travel{
+    display: flex;
+    margin-top: 315px;
+}
